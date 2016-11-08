@@ -1,41 +1,23 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 IncludeTemplateLangFile(__FILE__);
 ?>
-			</div>
-		</div>
-		<div id="space-for-footer"></div>
 	</div>
-	
-	<div id="footer">
-	
-		<div id="copyright">
-<?
-$APPLICATION->IncludeFile(
-	SITE_DIR."include/copyright.php",
-	Array(),
-	Array("MODE"=>"html")
-);
-?>
-		</div>
-		<div class="footer-links">	
-<?
-$APPLICATION->IncludeComponent("bitrix:menu", "bottom", array(
-	"ROOT_MENU_TYPE" => "bottom",
-	"MENU_CACHE_TYPE" => "N",
-	"MENU_CACHE_TIME" => "36000000",
-	"MENU_CACHE_USE_GROUPS" => "Y",
-	"MENU_CACHE_GET_VARS" => array(
-	),
-	"MAX_LEVEL" => "1",
-	"CHILD_MENU_TYPE" => "left",
-	"USE_EXT" => "N",
-	"ALLOW_MULTI_SELECT" => "N"
-	),
-	false
-);
-?>
-		</div>
-		<div id="footer-design"><?=GetMessage("FOOTER_DISIGN")?></div>
+	<div class="footer">
+
+	<?
+	$APPLICATION->IncludeFile(
+		SITE_DIR."include/counters.php",
+		Array(),
+		Array("MODE"=>"html")
+	);
+	?>
 	</div>
+</div>
+<?
+// \Bitrix\Main\Page\Asset::getInstance()->addCss("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+// \Bitrix\Main\Page\Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/template_styles.css");
+\Bitrix\Main\Page\Asset::getInstance()->addJs("/local/js/gb_util.js");
+\Bitrix\Main\Page\Asset::getInstance()->addJs("/vendor/almasaeed2010/adminlte/dist/js/app.min.js");
+?>
 </body>
 </html>

@@ -1,3 +1,7 @@
 /bitrix/
+/bitrix
 /upload/
+/upload
+/vendor/
 /test/
+/composer.lock
