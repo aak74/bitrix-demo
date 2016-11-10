@@ -2,7 +2,7 @@ var _gb = (function() {
     var alertClass = 'gb-alert';
     var modalClass = 'gb-modal';
 
-    console.log('gb_util in', alertClass);
+    // console.log('gb_util in', alertClass);
     return {
 
         showShadow: function() {

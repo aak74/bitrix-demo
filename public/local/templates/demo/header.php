@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/vendor/almasaeed2010/adminlte/dist/css/AdminLTE.min.css">
 <link rel="stylesheet" href="/vendor/almasaeed2010/adminlte/dist/css/skins/_all-skins.min.css">
 <link rel="stylesheet" href="/vendor/almasaeed2010/adminlte/dist/css/skins/skin-green.min.css">
-<!-- <link rel="stylesheet" href="/vendor/scrivo/highlight.php/styles/monokai_sublime.css"> -->
+<link rel="stylesheet" href="/vendor/scrivo/highlight.php/styles/monokai_sublime.css">
 <?
 // \Bitrix\Main\Page\Asset::getInstance()->addJs("/vendor/almasaeed2010/adminlte/plugins/jQuery/jquery-2.2.3.min.js");
 // \Bitrix\Main\Page\Asset::getInstance()->addJs("/vendor/almasaeed2010/adminlte/bootstrap/js/bootstrap.min.js");
@@ -31,8 +31,8 @@ $APPLICATION->ShowHead();
 				<span class="navbar-text navbar-left title">Package aak74/bitrix для работы с элементами в 1С-Bitrix | <?$APPLICATION->ShowTitle()?></span>
 				<div class="navbar-custom-menu">
 					<ul class="nav navbar-nav">
-						<li><a href="http://greenbrown.ru">Разработано в greenbrown.ru</a></li>
-						<li><a href="https://github.com/aak74/bitrix">Github</a></li>
+						<li><a href="https://www.linkedin.com/in/%D0%B0%D0%BD%D0%B4%D1%80%D0%B5%D0%B9-%D0%BA%D0%BE%D0%BF%D1%8B%D0%BB%D0%BE%D0%B2-23973693" title="Andrew Kopylov"><i class="fa fa-linkedin fa-2x"></i></a></li>
+						<li><a href="https://github.com/aak74/bitrix" title="Проект на github.com"><i class="fa fa-github fa-2x"></i></a></li>
 					</ul>
 				</div>
 			</nav>

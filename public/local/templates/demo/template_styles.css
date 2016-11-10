@@ -2,3 +2,7 @@
 span.title {
 	font-size: 1.1em;
 }
+
+.nav>li>a {
+    padding: 10px 11px !important;
+}
