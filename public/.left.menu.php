@@ -1,18 +1,18 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Контакты", 
-		"contacts/", 
-		Array(), 
-		Array(), 
-		"" 
+		"Установка",
+		"/install/",
+		Array(),
+		Array(),
+		""
 	),
 	Array(
-		"Карта сайта", 
-		"/sitemap/", 
-		Array(), 
-		Array(), 
-		"" 
+		"Использование",
+		"/usage/",
+		Array(),
+		Array(),
+		""
 	)
 );
 ?>
