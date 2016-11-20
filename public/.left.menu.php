@@ -8,7 +8,7 @@ $aMenuLinks = Array(
 		""
 	),
 	Array(
-		"Использование",
+		"Как использовать",
 		"/usage/",
 		Array(),
 		Array(),

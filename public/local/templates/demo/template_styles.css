@@ -6,3 +6,12 @@ span.title {
 .nav>li>a {
     padding: 10px 11px !important;
 }
+
+.example .code {
+    padding-left: 0 !important;
+}
+
+.result-scrollable {
+    max-height: 600px;
+    overflow-y: scroll;
+}

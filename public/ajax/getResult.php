@@ -8,10 +8,11 @@ if (in_array($name, ["basic", "filter", "two", "filter-name"])) {
 	require($_SERVER["DOCUMENT_ROOT"] . "/usage/examples/" . $name . ".php");
 
 	ob_start();
+	if ( is_array($result) ) {
+	    echo 'Элементов = ' . count($result);
+	}
 	?>
-	<pre class="pre-scrollable hljs">
-	<?print_r($result);?>
-	</pre>
+	<pre class="result-scrollable hljs php"><?print_r($result);?></pre>
 	<?
 	$output["html"] = ob_get_clean();
 	if ( $output["html"] ) {

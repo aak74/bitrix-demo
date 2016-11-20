@@ -3,7 +3,10 @@ var app = (function() {
 
     var showResult = function(html) {
         console.log('html', html)
-        $(_selector + '.log').html(html);
+        $result = $(_selector + '#result');
+        $result.find('.modal-body').html(html);
+        // $result.show();
+        $('#result').modal();
     }
 
     var getResult = function(name) {
@@ -36,11 +39,13 @@ var app = (function() {
     }
 
     this.setListeners = function(e) {
-        console.log('setListeners', e, this);
-         $(_selector + 'a.show-result').on('click', function() {
-            console.log('a.show-result clicked', this);
+        // console.log('setListeners', e, this);
+        $(_selector + 'a.show-result').on('click', function() {
+            // console.log('a.show-result clicked', this);
             getResult(this.dataset.name);
-         });
+        });
+
+        $(_selector + '.result btn.close').on('click', hideResult);
     };
 
     return {

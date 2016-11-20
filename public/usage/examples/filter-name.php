@@ -1,8 +1,8 @@
 <?
-$obj = new \App\Catalog\Model;
+$models = new \App\Catalog\Model;
 
-$result = $obj->getList([
+$result = $models->getList([
 	"select" => ["id", "name", "brandId", "brandName"],
-	"filter" => ["brandName" => "audi"],
+	"filter" => ["brandName" => "renault"],
 ]);
 ?>

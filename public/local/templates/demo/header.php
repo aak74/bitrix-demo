@@ -50,4 +50,5 @@ $APPLICATION->ShowHead();
 			),
 			false
 		);?>
-		<div class="content-wrapper">
+		<div class="content-wrapper container">
+			<h1><?$APPLICATION->ShowTitle()?></h1>
