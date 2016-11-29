@@ -22,17 +22,17 @@ $APPLICATION->ShowHead();
 	<div class="wrapper">
 		<header class="main-header">
 			<a href="/" class="logo">
-				<span class="logo-lg">Demo aak74/bitrix</span>
+				<span class="logo-lg">Demo aak74/bx-data</span>
 			</a>
 			<nav class="navbar navbar-static-top" role="navigation">
 				<a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
 					<span class="sr-only">Toggle menu</span>
 				</a>
-				<span class="navbar-text navbar-left title">Package aak74/bitrix для работы с элементами в 1С-Bitrix | <?$APPLICATION->ShowTitle()?></span>
+				<span class="navbar-text navbar-left title">Package aak74/bx-data для работы с данными в 1С-Bitrix | <?$APPLICATION->ShowTitle()?></span>
 				<div class="navbar-custom-menu">
 					<ul class="nav navbar-nav">
 						<li><a href="https://www.linkedin.com/in/%D0%B0%D0%BD%D0%B4%D1%80%D0%B5%D0%B9-%D0%BA%D0%BE%D0%BF%D1%8B%D0%BB%D0%BE%D0%B2-23973693" title="Andrew Kopylov"><i class="fa fa-linkedin fa-2x"></i></a></li>
-						<li><a href="https://github.com/aak74/bitrix" title="Проект на github.com"><i class="fa fa-github fa-2x"></i></a></li>
+						<li><a href="https://github.com/aak74/bx-data" title="Проект на github.com"><i class="fa fa-github fa-2x"></i></a></li>
 					</ul>
 				</div>
 			</nav>

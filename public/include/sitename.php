@@ -1,1 +1,1 @@
-Demo aak74/bitrix
+Demo aak74/bx-data

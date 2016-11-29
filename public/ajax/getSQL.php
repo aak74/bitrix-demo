@@ -8,13 +8,10 @@ if (in_array($name, ["basic", "filter", "two", "filter-name"])) {
     require($_SERVER["DOCUMENT_ROOT"] . "/usage/examples/" . $name . ".php");
 
     $hl = new \Highlight\Highlighter();
-    $code = $hl->highlight("php", print_r($result, true))->value;
+    $hl->setTabReplace("    ");
+    $code = $hl->highlight("sql", \Akop\Util::getLastQuery())->value;
 
-    $output["html"] = "";
-    if (is_array($result)) {
-        $output["html"] .= 'Элементов = ' . count($result);
-    }
-    $output["html"] .= '<pre class="result-scrollable hljs php">';
+    $output["html"] = '<pre class="result-scrollable hljs sql">';
     $output["html"] .= $code ;
     $output["html"] .= '</pre>';
 

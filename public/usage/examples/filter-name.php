@@ -1,8 +1,7 @@
-<?
+<?php
 $models = new \App\Catalog\Model;
 
 $result = $models->getList([
-	"select" => ["id", "name", "brandId", "brandName"],
-	"filter" => ["brandName" => "renault"],
+    "select" => ["id", "name", "brandId", "brandName"],
+    "filter" => ["brandName" => "renault"],
 ]);
-?>

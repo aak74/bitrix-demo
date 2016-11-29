@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Установка");
 
 $hl = new \Highlight\Highlighter();
-$code = $hl->highlight("php", "composer require aak74/bitrix:dev-master")->value;
+$code = $hl->highlight("php", "composer require aak74/bx-data:dev-master")->value;
 
 ?>
 <div class="example conatiner-fluid">

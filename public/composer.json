@@ -2,6 +2,6 @@
     "require": {
         "almasaeed2010/adminlte": "~2.0",
         "scrivo/highlight.php": "8.*",
-        "aak74/bitrix": "dev-master"
+        "aak74/bx-data": "dev-master"
     }
 }
